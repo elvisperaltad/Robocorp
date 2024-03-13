@@ -1,0 +1,39 @@
+{
+    "url": "https://www.nytimes.com/",
+    "cookieas_button":"//button[@class='css-1fzhd9j']",
+    "search_button" : "//div[@class='css-10488qs']",
+    "search_input" : "//input[@name='query']",
+    "do_search_button" : "//button[@class='css-1gudca6 e1iflr852']",
+    "search_phrase": "today",
+    "data_range":"//button[@data-testid='search-date-dropdown-a']",
+    "section": "//*[@id='site-content']/div/div[1]/div[2]/div/div/div[2]/div/div/button",
+    "senction_filter_active": "yes",
+    "senction_filter":["art","books","bussiness","movies","new_york"],
+    "senction_filters":{
+        "art": "//input[@value='Arts|nyt://section/6e6ee292-b4bd-5006-a619-9ceab03524f2']",
+        "books": "//input[@value='Books|nyt://section/550f75e2-fc37-5d5c-9dd1-c665ac221b49']",
+        "bussiness":"//input[@value='Business|nyt://section/0415b2b0-513a-5e78-80da-21ab770cb753']",
+        "movies":"//input[@value='Movies|nyt://section/62b3d471-4ae5-5ac2-836f-cb7ad531c4cb']",
+        "new_york":"//input[@value='New York|nyt://section/39480374-66d3-5603-9ce1-58cfa12988e2']",
+        "opinion":"//input[@value='Opinion|nyt://section/d7a71185-aa60-5635-bce0-5fab76c7c297']",
+        "sport":"//input[@value='Sports|nyt://section/4381411b-670f-5459-8277-b181485a19ec']",
+        "us":"//input[@value='U.S.|nyt://section/a34d3d6c-c77f-5931-b951-241b4e28681c']",
+        "world":"//input[@value='World|nyt://section/70e865b6-cc70-5181-84c9-8368b3a5c34b']"
+    },
+    "data_range_filter_active":"yes",
+    "data_range_filter":"specific_date",
+    "data_range_filters":{
+        "all_since_1851":"//button[@value='All Since 1851']",
+        "yesterday":"//button[@value='Yesterday']",
+        "past_week":"//button[@value='Past Week']",
+        "past_month":"//button[@value='Past Month']",
+        "past_year":"//button[@value='Past Year']",
+        "specific_date":"//button[@value='Specific Dates']"
+    },
+    "number_of_months_active":"yes",
+    "number_of_months": 5,
+    "startDate":"//input[@data-testid='DateRange-startDate']",
+    "endDate":"//input[@data-testid='DateRange-endDate']",
+    "any": "//input[@value='any']"
+}
+
